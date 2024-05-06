@@ -57,6 +57,11 @@ which is base on GsonFormat and more flexible and convenient. Welcome to issue a
 <p>&nbsp;</p>
 <h2>Version Info</h2>
 
+<p>1.6.1 by wangzhejun</p>
+<ul>
+<li>fix comment npe</li>
+</ul>
+
 <p>1.6.0 by wangzhejun</p>
 <ul>
 <li>support auto format</li>
@@ -121,7 +126,7 @@ which is base on GsonFormat and more flexible and convenient. Welcome to issue a
     <vendor email="ol894498560@outlook.com">mars-men</vendor>
     <idea-version since-build="135.121"/>
     <change-notes><![CDATA[
-    <p>1.6.0</p>
+    <p>1.6.1</p>
     <ul>
       <li>support auto format</li>
       <li>fix comment position</li>
