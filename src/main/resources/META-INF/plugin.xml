@@ -1,6 +1,6 @@
 <idea-plugin>
     <name>GsonFormatPlus</name>
-    <version>1.6.1</version>
+    <version>1.6.2</version>
     <description><![CDATA[
 <!doctype html>
 <html>
@@ -57,7 +57,14 @@ which is base on GsonFormat and more flexible and convenient. Welcome to issue a
 <p>&nbsp;</p>
 <h2>Version Info</h2>
 
-<p>1.6.1 by wangzhejun</p>
+<p>1.6.2 by xweiba</p>
+<ul>
+<li>support fastjson2</li>
+<li>update idea plugin</li>
+<li>update readme</li>
+</ul>
+
+<p>1.6.1 by xweiba</p>
 <ul>
 <li>fix comment npe</li>
 </ul>
@@ -126,11 +133,39 @@ which is base on GsonFormat and more flexible and convenient. Welcome to issue a
     <vendor email="ol894498560@outlook.com">mars-men</vendor>
     <idea-version since-build="135.121"/>
     <change-notes><![CDATA[
+
+    <p>1.6.2</p>
+    <ul>
+        <li>support fastjson2</li>
+        <li>update idea plugin</li>
+        <li>update readme</li>
+    </ul>
+
     <p>1.6.1</p>
     <ul>
-      <li>support auto format</li>
-      <li>fix comment position</li>
-      <li>fix camel convert</li>
+        <li>support auto format</li>
+        <li>fix comment npe</li>
+        <li>fix comment position</li>
+        <li>fix camel convert</li>
+    </ul>
+
+    <p>1.6.0</p>
+    <ul>
+        <li>support auto format</li>
+        <li>fix comment position</li>
+        <li>fix camel convert</li>
+    </ul>
+
+    <p>1.5.8</p>
+    <ul>
+        <li>fix json camel bug</li>
+        <li>fix bool property default `is` function</li>
+        <li>fix comment conflict</li>
+    </ul>
+
+    <p>1.5.7</p>
+    <ul>
+        <li>fix some json5 format bug</li>
     </ul>
 
     <p>1.5.6</p>

@@ -60,33 +60,60 @@ SETTING
 | Convert library | jackson/fastjson | true | jackson/fastjson convert library |
 
 
+#### 5. Version Information
 
-## Version Info
+**Version 1.6.2 by xweiba**
+- Support FastJSON2
+- Upgrade IDEA plugin to version 1.5.2 
+- Upgrade Gradle plugin to version 7.1
+- Update README
 
-1.5.5 by mars-men
+**Version 1.6.1 by xweiba**
+- Fix comment NPE
 
-- upload to jetbrain plugin center
+**Version 1.6.0 by wangzhejun**
+- Support auto format
+- Fix comment position
+- Fix camel convert
 
-1.5.2 by wangzejun
+**Version 1.5.8 by wangzhejun**
+- Fix JSON camel bug
+- Fix boolean property default `is` function
+- Fix comment conflict
 
-- support field comment
-- support json5 format
+**Version 1.5.7 by wangzhejun**
+- Fix some JSON5 format bugs
 
-1.5.1 by mars-men
+**Version 1.5.6 by mars-men**
+- Remove JSON dialog `VK_ENTER` listener
+- Update README
 
-- setting jackson annotation as default
-- support lombok as option
-- fix some bug
+**Version 1.5.5 by mars-men**
+- Upload to JetBrains plugin center
 
-1.5.0 - 3 years ago by gsonformat
+**Version 1.5.2 by wangzejun**
+- Support field comments
+- Support JSON5 format
 
-- fix several bug
-- fix unlock setting window size
+**Version 1.5.1 by sun-men**
+- Set default to Jackson annotations
+- Support using Lombok annotations
+- Code refactored in new version of IDEA
 
-1.4.0
+**Version 1.5.0 - 3 years ago**
+- Fix several bugs
+- Fix unlock setting window size
 
-- New: Support for autovalue
-- New: Support for lombok
+**Version 1.4.0**
+- New: Support for Autovalue
+- New: Support for Lombok
 - New: Support for split generate class
 
-the end
+**Version 1.2.2**
+- Support field type modification
+- Support opening GsonFormat with a shortcut, default is Option+S (Mac), Alt+S (Windows)
+- Support field name modification
+- Support adding field prefix
+- Support multiple conversion libraries (Gson, Jackson, FastJSON, LoganSquare)
+- Support private and public modes
+- Support filtering out parent class properties

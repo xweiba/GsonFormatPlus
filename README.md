@@ -62,43 +62,62 @@ which is more flexible and convenient.
 | Field | use number key as map | 是   | 使用数字类型key替换为Map结构，待完善 |
 | Convert library | jackson/fastjson | 是   | jackson/fastjson等转换注解 |
 
-#### 5.版本信息
+### 中文版
 
-future features
+#### 5. 版本信息
 
-- 提取静态内部类到根类
-- 支持数字key映射Map字段
+**版本 1.6.2 by xweiba**
+- 支持 FastJSON2
+- IDEA 插件升级到 1.5.2 版本
+- Gradle 插件升级到 7.1 版本
+- 更新 README
 
-版本1.5.2 by wangzejun
+**版本 1.6.1 by xweiba**
+- 修复注释 NPE
 
+**版本 1.6.0 by wangzhejun**
+- 支持自动格式化
+- 修复注释位置
+- 修复驼峰转换
+
+**版本 1.5.8 by wangzhejun**
+- 修复 JSON 驼峰 Bug
+- 修复布尔属性默认 `is` 函数
+- 修复注释冲突
+
+**版本 1.5.7 by wangzhejun**
+- 修复部分 JSON5 格式 Bug
+
+**版本 1.5.6 by mars-men**
+- 移除 JSON 对话框的 `VK_ENTER` 监听器
+- 更新 README
+
+**版本 1.5.5 by mars-men**
+- 上传到 JetBrains 插件中心
+
+**版本 1.5.2 by wangzejun**
 - 支持字段注释
-- 支持json5格式
+- 支持 JSON5 格式
 
-版本1.5.1 by sun-men
+**版本 1.5.1 by sun-men**
+- 设置默认为 Jackson 注解
+- 支持选用 Lombok 注解
+- 代码在新版本 IDEA 重构
 
-- 设置默认为jackson注解
-- 支持选用lombok注解
-- 代码在新版本idea重构
+**版本 1.5.0 - 3 年前**
+- 修复多个 Bug
+- 修复设置窗口大小锁定的问题
 
-版本1.5.0 - 3 years ago
+**版本 1.4.0**
+- 新增：支持 Autovalue
+- 新增：支持 Lombok
+- 新增：支持拆分生成类
 
-- fix several bug
-- fix unlock setting window size
-
-版本1.4.0
-
-- New: Support for autovalue
-- New: Support for lombok
-- New: Support for split generate class
-
-版本1.2.2
-
-- 支持 field 类型的修改.
-- 支持快捷键打开 GsonFormat ,默认为 option+s(mac), alt+s(win)
-- 支持 field 名称的修改.
-- 支持添加 field 前缀.
-- 支持多种转换库 (Gson,Jackjson,FastJson,LoganSquare).
-- 支持 private 和 public 两种模式.
-- 支持过滤父类已有属性.
-
-the end
+**版本 1.2.2**
+- 支持字段类型的修改
+- 支持快捷键打开 GsonFormat，默认为 Option+S (Mac)，Alt+S (Windows)
+- 支持字段名称的修改
+- 支持添加字段前缀
+- 支持多种转换库 (Gson, Jackson, FastJSON, LoganSquare)
+- 支持 private 和 public 两种模式
+- 支持过滤父类已有属性
